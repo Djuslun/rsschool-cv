@@ -18,8 +18,14 @@ I am very interested in FrontEnd and I want to get the skills and knowledge that
 * Git
 
 ## Code Example
+	"function multiply(a, b){
+						a * b
+						return a * b
+						}"
 
 ## Experience 
+[CV](https://djuslun.github.io/rsschool-cv/)
+
 
 ## Education
 * **University**: Military Academy of the Republic of Belarus
