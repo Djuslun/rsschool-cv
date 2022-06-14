@@ -107,9 +107,9 @@ html {
 }
 
 body {
-  font-family: Roboto;
   display: flex;
   flex-direction: column;
+  font-family: Roboto;
   font-size: 16px;
 }
 
@@ -131,7 +131,7 @@ body {
 .nav-link {
   padding: 0 20px;
   line-height: 50px;
-  transition: color 0.3s;
+  transition: 0.5s;
 }
 
 .nav-link:visited {
@@ -140,6 +140,7 @@ body {
 
 .nav-link:hover {
   color: rgb(17, 168, 148);
+  transition: 0.5s;
 }
 
 .main {
@@ -169,6 +170,11 @@ body {
   margin-bottom: 20px;
   flex: 0 1 50%;
 }
+@media (max-width: 768px) {
+	.section {
+		flex: 0 1 100%;
+	}
+}
 
 .section-img {
   max-width: 150px;
@@ -185,8 +191,8 @@ body {
 }
 
 .section-title {
-  font-size: 30px;
   margin-bottom: 5px;
+  font-size: 30px;
 }
 
 .section-list {
@@ -199,11 +205,11 @@ body {
 .section-item::before {
   content: '';
   display: inline-block;
+  margin-right: 10px;
   width: 10px;
   height: 10px;
   background: #000000 no-repeat 0 0;
-  border-radius: 50%;
-  margin-right: 10px;
+border-radius: 50%;
 }
 
 .section-text {
@@ -211,8 +217,8 @@ body {
 }
 
 .footer {
-  background: #dad6d3;
   padding: 20px;
+  background: #dad6d3;
 }
 
 .footer-row {
